@@ -18,4 +18,7 @@
     return false;
 };
 
+// или const s = new Set(nums); 
+//     return s.size !== nums.length
+
 module.exports = {containsDuplicate};
